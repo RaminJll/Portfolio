@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramin Jalili - Développeur Full-Stack</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+
+            <ul class="nav-links">
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-label">Développeur Full-Stack</p>
+            <h1 class="hero-title">Ramin Jalili</h1>
+            <p class="hero-subtitle">Étudiant BUT MMI</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Me contacter</a>
+                <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+            </div>
+            <div class="hero-info">
+                <span class="hero-badge">📅 Disponible mars 2026</span>
+                <span class="hero-badge">📱 07 60 40 35 90</span>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- Profil Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="profil" class="section-title">Profil</h2>
+            </div>
+            <div class="profil-content">
+                <div class="profil-text">
+                    <p class="profil-lead">
+                        Étudiant en dernière année de <strong>BUT MMI</strong>, je recherche un stage de 4 à 6 mois dès
+                        mars 2026 en tant que développeur Full-Stack.
+                    </p>
+                    <p>
+                        Je maîtrise <strong>Node.js</strong>, <strong>React</strong> et <strong>Symfony</strong>, la
+                        conception d'API REST et le déploiement Docker. Je possède également des compétences en IA en
+                        complément, pour intégrer des fonctionnalités intelligentes à vos projets.
+                    </p>
+                </div>
+                <div class="profil-visual">
+                    <img src="moi.png" alt="moi" class="me">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section class="section section-dark">
+        <div class="container">
+            <div id="projets" class="section-header">
+                <h2 class="section-title">Projets</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <article class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">💬</div>
+                        <span class="project-date">Nov 2025 - Jan 2026</span>
+                    </div>
+                    <h3 class="project-title">AppChat</h3>
+                    <p class="project-subtitle">Application de Messagerie Instantanée</p>
+                    <p class="project-desc">Chat temps réel 1-to-1 et groupes avec React/TailwindCSS, Node.js et
+                        Socket.IO. Architecture backend robuste avec TypeScript, Prisma et PostgreSQL. Stack complète
+                        conteneurisée avec Docker.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Socket.IO</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Prisma</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </article>
+
+                <!-- Projet 2 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🥗</div>
+                        <span class="project-date">Déc 2024 - Jan 2025</span>
+                    </div>
+                    <h3 class="project-title">App Nutrition</h3>
+                    <p class="project-subtitle">Gestion Alimentaire & Suivi Nutritionnel</p>
+                    <p class="project-desc">Back-end d'une application de gestion alimentaire qui agrège et structure des 
+                        données nutritionnelles depuis FatSecret et Open Food Facts. Authentification OAuth et traitement asynchrone des données. </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Express</span>
+                        <span class="tech-tag">API REST</span>
+                    </div>
+                </article>
+
+                <!-- Projet 3 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🐴</div>
+                        <span class="project-date">Déc 2024 - Jan 2025</span>
+                    </div>
+                    <h3 class="project-title">Gestion Sellerie</h3>
+                    <p class="project-subtitle">Prêt de Matériel de Sellerie</p>
+                    <p class="project-desc">Architecture MVC avec Symfony, Entities/Repositories/Controllers. BDD MySQL
+                        avec Doctrine, formulaires complexes et validation sécurisée. Frontend TailwindCSS.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Symfony</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">Doctrine</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">TailwindCSS</span>
+                    </div>
+                </article>
+
+                <!-- Projet 4 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📸​</div>
+                        <span class="project-date">Oct 2025 - Nov 2025</span>
+                    </div>
+                    <h3 class="project-title">Quel type d'objet</h3>
+                    <p class="project-subtitle">Reconnaissance d'Objets via webcam</p>
+                    <p class="project-desc">Système de reconnaissance d'objets parmi 1000 classes via MobileNetV2.
+                        Utilisation de TensorFlow/Keras et
+                        APIs Flask pour l'inférence, ainsi qu'un transfer learning sur 4 classes spécifiques, le tout
+                        conteneurisé avec Docker.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Keras</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">MobileNetV2</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📊</div>
+                        <span class="project-date">SEPT 2025 - OCT 2025</span>
+                    </div>
+                    <h3 class="project-title">IA & Deep Learning</h3>
+                    <p class="project-subtitle">Prédiction CTR</p>
+                    <p class="project-desc">Modèle MLP avec pipeline persistant afin de prédire si un utilisateur
+                        cliquera ou non sur une annonce publicitaire.
+                        Projet réalisé avec Tensorflow/Keras, ainsi que Flask et Docker.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Keras</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Docker</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expérience Section -->
+    <section class="section">
+        <div id="exp" class="container">
+            <div id="experience" class="section-header">
+                <h2 class="section-title">Expérience Professionnelle</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Mai - Juin 2024</span>
+                        <h3 class="timeline-title">Stage Développement Full-Stack</h3>
+                        <p class="timeline-company">Maxime Blouin — Développeur Freelance</p>
+                        <ul class="timeline-tasks">
+                            <li>Conception et développement du Back-end d'une application mobile de coworking en API
+                                RESTful sécurisée avec Node.js (Express) et TypeScript</li>
+                            <li>Développement d'une interface mobile cross-platform avec Ionic et Angular intégrant la
+                                consommation de l'API</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Node.js</span>
+                            <span>TypeScript</span>
+                            <span>Express</span>
+                            <span>Ionic</span>
+                            <span>Angular</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education">
+                <div class="section-header" style="margin-top: 4rem;">
+                    <h2 class="section-title">Études & Diplômes</h2>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-content">
+                        <h3>BUT MMI — Métiers du Multimédia et de l'Internet</h3>
+                        <p class="education-school">IUT Grand Ouest Normandie, Site de Saint-Lô</p>
+                        <span class="education-status">Diplôme prévu 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section class="section section-gradient">
+        <div class="container">
+            <div id="competences" class="section-header">
+                <h2 class="section-title">Compétences Techniques</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">⚙️</span>
+                        <h3>Back-end</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Symfony</li>
+                        <li>TypeScript</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🎨</span>
+                        <h3>Front-end</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>HTML5 / CSS3</li>
+                        <li>React</li>
+                        <li>TailwindCSS</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🗄️</span>
+                        <h3>Bases de Données & ORM</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>SQL</li>
+                        <li>Prisma</li>
+                        <li>MongoDB</li>
+                        <li>Doctrine</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🚀</span>
+                        <h3>Outils & Déploiement</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Docker</li>
+                        <li>Git / GitHub</li>
+                        <li>CI/CD</li>
+                        <li>Postman</li>
+                        <li>DBeaver</li>
+                        <li>Figma</li>
+                        <li>Jira</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category featured">
+                    <div class="skill-header">
+                        <span class="skill-icon">🧠</span>
+                        <h3>Machine Learning & IA</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>TensorFlow / TensorFlow.js</li>
+                        <li>Keras</li>
+                        <li>Scikit-learn</li>
+                        <li>Pandas / NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>Gunicorn</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <span class="skill-icon">🌍</span>
+                        <h3>Langues</h3>
+                    </div>
+                    <ul class="skill-list lang-list">
+                        <li><span class="lang-name">Français</span> <span class="lang-level">Natif</span></li>
+                        <li><span class="lang-name">Anglais</span> <span class="lang-level">B2</span></li>
+                        <li><span class="lang-name">Persan</span> <span class="lang-level">Langue maternelle</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div id="contact" class="section-header">
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-methods">
+                        <a href="tel:0760403590" class="contact-method">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <span class="contact-label">Téléphone</span>
+                                <span class="contact-value">07 60 40 35 90</span>
+                            </div>
+                        </a>
+                        <a target="_blank" href="mailto:raminjalili2507@gmail.com" class="contact-method">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <span class="contact-label">E-mail</span>
+                                <span class="contact-value">raminjalili2507@gmail.com</span>
+                            </div>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/ramin-jalili-328b90234/" class="contact-method">
+                            <span class="contact-icon-bonus"><img class="linkedin" width="100%%" src="linkedin.png"
+                                    alt="linkedin"></span>
+                        </a>
+                        <a target="_blank" href="https://github.com/RaminJll" class="contact-method">
+                            <span class="contact-icon-bonus"><img class="linkedin" width="100%" src="github-img.png"
+                                    alt="github"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="droit">&copy; Ramin Jalili. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
