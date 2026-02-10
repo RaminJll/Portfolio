@@ -12,17 +12,22 @@
 <body>
     <!-- Navigation -->
     <nav class="nav">
-        <div class="nav-container">
-
-            <ul class="nav-links">
-                <li><a href="#profil">Profil</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#experience">Expérience</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div class="nav-container">
+        <div class="nav-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-    </nav>
+
+        <ul class="nav-links">
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
     <!-- Hero Section -->
     <header class="hero">
@@ -79,7 +84,7 @@
             </div>
             <div class="projects-grid">
                 <!-- Projet 1 -->
-                <article class="project-card featured">
+                <article class="project-card">
                     <div class="project-header">
                         <div class="project-icon">💬</div>
                         <span class="project-date">Nov 2025 - Jan 2026</span>
@@ -98,6 +103,9 @@
                         <span class="tech-tag">PostgreSQL</span>
                         <span class="tech-tag">Docker</span>
                     </div>
+                    <a target="_blank" href="https://github.com/RaminJll/ChatApp" class="github-project">
+                        <img class="github-img" src="github-img.png" alt="github">
+                    </a>
                 </article>
 
                 <!-- Projet 2 -->
@@ -108,20 +116,26 @@
                     </div>
                     <h3 class="project-title">App Nutrition</h3>
                     <p class="project-subtitle">Gestion Alimentaire & Suivi Nutritionnel</p>
-                    <p class="project-desc">Back-end d'une application de gestion alimentaire qui agrège et structure des 
-                        données nutritionnelles depuis FatSecret et Open Food Facts. Authentification OAuth et traitement asynchrone des données. </p>
+                    <p class="project-desc">Back-end d'une application de gestion alimentaire qui agrège et structure des
+                        données nutritionnelles depuis FatSecret et Open Food Facts. Authentification OAuth et
+                        traitement asynchrone des données. </p>
                     <div class="project-tech">
                         <span class="tech-tag">Node.js</span>
                         <span class="tech-tag">Express</span>
                         <span class="tech-tag">API REST</span>
+                        <span class="tech-tag">Open Food Facts</span>
+                        <span class="tech-tag">FatSecret</span>
                     </div>
+                    <a target="_blank" href="https://github.com/RaminJll/Application-de-gestion-alimentaire-Back-end" class="github-project">
+                        <img class="github-img" src="github-img.png" alt="github">
+                    </a>
                 </article>
 
                 <!-- Projet 3 -->
                 <article class="project-card">
                     <div class="project-header">
                         <div class="project-icon">🐴</div>
-                        <span class="project-date">Déc 2024 - Jan 2025</span>
+                        <span class="project-date">Nov 2024 - Jan 2025</span>
                     </div>
                     <h3 class="project-title">Gestion Sellerie</h3>
                     <p class="project-subtitle">Prêt de Matériel de Sellerie</p>
@@ -134,6 +148,9 @@
                         <span class="tech-tag">MySQL</span>
                         <span class="tech-tag">TailwindCSS</span>
                     </div>
+                    <a target="_blank" href="https://github.com/RaminJll/Sellerie" class="github-project">
+                        <img class="github-img" src="github-img.png" alt="github">
+                    </a>
                 </article>
 
                 <!-- Projet 4 -->
@@ -156,6 +173,9 @@
                         <span class="tech-tag">MobileNetV2</span>
                         <span class="tech-tag">Docker</span>
                     </div>
+                    <a target="_blank" href="https://github.com/RaminJll/reconnaissance-objets" class="github-project">
+                        <img class="github-img" src="github-img.png" alt="github">
+                    </a>
                 </article>
                 <article class="project-card">
                     <div class="project-header">
@@ -174,6 +194,9 @@
                         <span class="tech-tag">Flask</span>
                         <span class="tech-tag">Docker</span>
                     </div>
+                    <a target="_blank" href="https://github.com/RaminJll/AdClick-prediction" class="github-project">
+                        <img class="github-img" src="github-img.png" alt="github">
+                    </a>
                 </article>
             </div>
         </div>
@@ -183,7 +206,7 @@
     <section class="section">
         <div id="exp" class="container">
             <div id="experience" class="section-header">
-                <h2 class="section-title">Expérience Professionnelle</h2>
+                <h2 class="section-title">Expériences Professionnelles</h2>
             </div>
             <div class="timeline">
                 <div class="timeline-item">
@@ -344,12 +367,13 @@
                                 <span class="contact-value">raminjalili2507@gmail.com</span>
                             </div>
                         </a>
-                        <a target="_blank" href="https://www.linkedin.com/in/ramin-jalili-328b90234/" class="contact-method">
-                            <span class="contact-icon-bonus"><img class="linkedin" width="100%%" src="linkedin.png"
+                        <a target="_blank" href="https://www.linkedin.com/in/ramin-jalili-328b90234/"
+                            class="contact-method">
+                            <span class="contact-icon-bonus"><img width="100%%" src="linkedin.png"
                                     alt="linkedin"></span>
                         </a>
                         <a target="_blank" href="https://github.com/RaminJll" class="contact-method">
-                            <span class="contact-icon-bonus"><img class="linkedin" width="100%" src="github-img.png"
+                            <span class="contact-icon-bonus"><img width="100%" src="github-img.png"
                                     alt="github"></span>
                         </a>
                     </div>
